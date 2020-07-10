@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <link href="Images/game.png" rel="shortcut icon">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Piedra&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <title>Simon Memory</title>
+    <link href="CSS/CSS.css" rel="stylesheet">
+  </head>
+  <body>
+  	<h1 class="heading" style="font-family: 'Piedra', cursive;">Remeber To Remember The Pattern!!!</h1>
+    <p id="level" style="text-shadow: 2px 0 #232931; font-color:yellow; border: 2px black solid; margin: 10px 400px;">Level : 0</p>
+  		<div id="up">
+  			<button type="submit" id="red" disabled = true onclick="tapRed(1)" style="background-color:darkred; width: 200px; height: 200px;" value=1></button>
+  			<button type="submit" id="green" disabled = true onclick="tapGreen(1)" style="background-color:darkgreen; width: 200px; height: 200px;" value=2></button>
+  		</div>
+  		<div id="down">
+  			<button type="submit" id="blue" onclick="tapBlue(1)" disabled = true style="background-color:darkblue; width: 200px; height: 200px;" value=3></button>
+  			<button type="submit" disabled = true id="pink" onclick="tapPink(1)" style="background-color:hotpink; width: 200px; height: 200px;" value=4></button>
+  		</div>
+  <a href="#" id="reset"><button id="start" onclick="start()" style="background:linear-gradient(180deg,skyblue,hotpink); text-shadow: 2px 0 #232931; font-color:yellow; border: 2px black solid;">Start</button></a>
+  </body>
+  <script src="JS/JS.js" defer></script>	
+  <p class="credits" style="font-family: 'Piedra', cursive; margin-bottom:20px">Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></p>
+</html>

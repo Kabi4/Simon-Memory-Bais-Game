@@ -1,0 +1,14 @@
+html{
+	text-align:center;
+	vertical-align:middle;
+	padding-top:50px;
+	background:linear-gradient(180deg,gold,silver);
+	height:100vh;
+	width:100vw;
+}
+.credits{
+	margin-left:800px;
+	font-size:8px;
+	background:linear-gradient(180deg,skyblue,hotpink);
+
+}
