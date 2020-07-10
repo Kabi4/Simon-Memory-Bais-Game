@@ -136,3 +136,10 @@ function playSound(name) {
   var audio = new Audio("Sounds/" + name + ".mp3");
   audio.play();
 }
+function displayTime() {
+   let date = new Date();
+   let time = date.toLocaleTimeString();
+   document.getElementById('demo').textContent = time;
+}
+
+const createClock = setInterval(displayTime, 10);
